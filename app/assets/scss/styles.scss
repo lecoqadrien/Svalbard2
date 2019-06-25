@@ -1,0 +1,325 @@
+@import "reset";
+
+.big-header {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.title {
+  position: absolute;
+
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 60px;
+  color: white;
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 36px;
+  color: white;
+  text-align: center;
+}
+
+//Introduction
+
+.bloc_text {
+  position: absolute;
+  height: 445px;
+  width: 1045px;
+  border: 2px solid white;
+  background: black;
+  left: 155px;
+  top: 155px;
+  opacity: 0.7;
+}
+
+.bloc_touch {
+  position: absolute;
+  height: 45px;
+  bottom: 30vh;
+  left: 40%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: bolder;
+  color: white;
+}
+
+h4 {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: bolder;
+  margin-top: 45px;
+}
+
+//Map .vue
+
+.fleche {
+  position: absolute;
+  left: 14px;
+  cursor: pointer;
+}
+
+.fond {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  background: #132b4f;
+
+}
+
+.Message {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  padding: 2px;
+
+}
+.forme_ext {
+  width: 608px;
+  height: 550px;
+  margin: 0 auto;
+  margin-top: 3px;
+}
+
+.form_int {
+  width: 481px;
+  margin: 0 auto;
+  position: absolute;
+  height: 457px;
+}
+
+.carte_centre {
+  position: absolute;
+  top: 175px;
+  left: 555px;
+  height: 170px;
+}
+
+.cartecentrechap1 {
+  opacity:0;
+  position: absolute;
+  top: 175px;
+  left: 555px;
+  height: 170px;
+}
+
+.cardcentrechap3 {
+  position: absolute;
+  transform: scale(1.1);
+  transition: 1s;
+  height: 56vh;
+  top: 205px;
+}
+
+.carte_nord {
+  height: 110px;
+  position: absolute;
+  top: 125px;
+  left: 700px;
+}
+
+.cardnorthchap2 {
+  opacity:0;
+  height: 110px;
+  position: absolute;
+  top: 125px;
+  left: 700px;
+}
+
+.cardNorthChap3 {
+  opacity: 0;
+  position: absolute;
+  height: 110px;
+  position: absolute;
+  top: 125px;
+  left: 700px;
+}
+
+.carte_sud_est {
+  height: 120px;
+  position: absolute;
+  top: 340px;
+  left: 705px;
+}
+
+.cardsoutheastchap1 {
+  opacity: 0;
+  height: 120px;
+  position: absolute;
+  top: 340px;
+  left: 705px;
+}
+
+.carte_sudouest {
+  height: 150px;
+  position: absolute;
+  top: 340px;
+  left: 605px;
+}
+
+.cardsouthwestchap1 {
+  opacity:0;  
+  height: 150px;
+  position: absolute;
+  top: 340px;
+  left: 605px;
+}
+
+.cardSouthEastChap2 {
+    position: absolute;
+    transform: scale(1.1);
+    transition: 1s;
+    height: 39vh;
+    top: 205px;
+    left: 1005px;
+
+}
+
+.ouest {
+  height: 70px;
+  position: absolute;
+  top: 270px;
+  left: 545px;
+}
+
+.cardwestchap1 {
+  opacity: 0;
+  height: 70px;
+  position: absolute;
+  top: 270px;
+  left: 545px;
+}
+
+.cardSouthWestChap2 {
+  position: absolute;
+  transform: scale(1.1);
+  transition: 1s;
+  height: 56vh;
+  top: 205px;
+  
+
+}
+
+
+.islandExtChap1 {
+  width: 500px;
+  height: 550px;
+  transform: scale(4.3);
+  transition: 1s ease-in-out;
+}
+
+.islandIntChap1 {
+  width: 400px;
+  height: 450px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-left: 400px;
+  transform: scale(4.3);
+  transition: 1s ease-in-out;
+}
+
+.buttons {
+  position: absolute;
+  height: 100vh;
+  width: 4%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  
+}
+
+.buttonchap {
+  position: absolute;
+  height: 50px;
+  right: 135px;
+  bottom: 54px;
+}
+
+.buttonchap2 {
+  position: absolute; 
+  height: 50px;
+  left: 45px;
+  bottom: 55px;
+}
+
+.buttonchap3 {
+  position: absolute;
+  height: 50px;
+  left: 355px;
+  bottom: 55px;
+}
+
+.ellipse {
+  position: absolute;
+  top: 375px;
+  left: 604px;
+}
+
+.ellipse2 {
+  position: absolute;
+  top: 305px;
+  left: 554px;
+}
+
+.ellipse3 {
+  position: absolute;
+  top: 305px;
+  left: 604px;
+}
+
+.buttonchapOpen {
+    transform: scale(1.2);
+    transition: 1s;
+    height: 56vh;
+}
+
+.rond_chap1 {
+  position: absolute;
+  top: 375px;
+  left: 604px;
+}
+
+.rond_chapdev {
+  position: absolute;
+  top: 45vh;
+}
+
+
+//After click chap1
+
+.textPointChap1 {
+  position: absolute;
+  height: 45vh;
+  background: red;
+}
+
+.bloc {
+  position: absolute;
+  height: 45vh;
+  width: 45vh;
+  background: red;
+}
+
+.formes_cards {
+  display: flex;
+  justify-content: center;
+  flex-direction: column
+}
+
