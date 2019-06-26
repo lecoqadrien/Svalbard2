@@ -1,26 +1,29 @@
 <template>
   <div class="fond">
-    <h1>{{ message }}</h1>
-    <a href="/Intro"><img src="../assets/image/fleche.png" alt="" class="fleche"></a>
-    <div class="formes">
-        <img src="../assets/image/forme_ext.png" alt="" class="forme_ext">
-        <div>
-            <img src="../assets/image/form_int.png" alt="" class="form_int">
-            <img src="../assets/image/carte_centrre.png" alt="" class="carte_centre">
-            <img src="../assets/image/carte_nord.png" alt="" class="carte_nord">
-            <img src="../assets/image/carte_sudouest.png" alt="" class="carte_sudouest">
-            <img src="../assets/image/carte_sud_est.png" alt="" class="carte_sud_est">
-            <img src="../assets/image/ouest.png" alt="" class="ouest">
-            <img src="../assets/image/Ellipse.png" alt="" class="ellipse">
-            <img src="../assets/image/Ellipse.png" alt="" class="ellipse2">
-            <img src="../assets/image/Ellipse.png" alt="" class="ellipse3">
-            <img src="../assets/image/Ellipse.png" alt="" class="ellipse4">
+    <router-link class="" to="/Map"><img src="../assets/image/fleche.png" alt="" class="fleche"></router-link>
+    <h1 class="Message">{{ message }}</h1>
+      <div class="forme_cardcenter_chap2">
+        <div class="bloc_chap2">
+          <div class="bloc_chap2_int">
+            <p>La plupart de la vie animale du Svalbard tire sa substance nutritive de la mer de Barents. Grâce au courant chaud du Gulf Stream qui se mélange à une eau glacée, et grâce aussi à la plate-forme maritime de cette région ainsi qu'à une activité intense des rayons solaires durant la saison estivale, cette région maritime arctique est dotée d'un haut degré de bio production.</p>
+          </div>
         </div>
-        <div class="buttons">
-                <a href="/chap_1" router-link class="button" to="/chap_1"><img src="../assets/image/button1.png" alt="" class="button1"></router-link></a>
-                <a href="/chap_2" router-link class="button" to="/chap_2"><img src="../assets/image/chap_2_light.png" alt="" class="button2">
-                <a href="/chap_3" router-link class="button" to="/chap_3"><img src="../assets/image/button_3.png" alt="" class="button3">
+        <div class="cards_southwest">
+          <img src="../assets/image/carte_sudouest.png" alt="" class="card_sudouest_chap1">
+          <img src="../assets/image/carte_sud_est.png" alt="" class="card_sudest_chap1">
         </div>
+      </div>
+      <div class="buttons">
+          <div class="bloc_button1">
+            <router-link class="" to="/chap_1"><img src="../assets/image/button1.png" alt="" class="buttonchap"></router-link>
+          </div>
+          <div class="bloc_button2">
+            <router-link class="" to="/chap_2"><img src="../assets/image/chap_2_light.png" alt="" class="buttonchap2"></router-link>
+          </div>
+          <div class="bloc_button3">
+            <router-link class="" to="/chap_3"><img src="../assets/image/button_3.png" alt="" class="buttonchap3"></router-link>
+          </div>
+      </div>
     </div>
   </div>
 </template>
@@ -31,7 +34,7 @@ export default {
   data() {
     return {
       message:
-        "Cliquer sur une étape pour commencer"
+        "La faune et la flore"
     };
   }
 };

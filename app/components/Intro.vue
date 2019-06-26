@@ -1,6 +1,7 @@
 <template>
   <div class="big-header">
-      <img src="../assets/image/groenland.png" alt="">
+    <router-link class="" to="/Home"><img src="../assets/image/fleche.png" alt="" class="fleche"></router-link>
+      <img src="../assets/image/groenland.png" alt="" class="groenland">
       <div class="bloc_text">
         <h4>{{message}}</h4>
       </div>

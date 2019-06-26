@@ -37,6 +37,7 @@ template{
 
 .videohome{
   height: 100vh;
+  max-width: 100%;
   z-index: -10;
   background-position: center center;
 }
