@@ -1,6 +1,6 @@
 <template>
   <div class="big-header">
-    <router-link class="" to="/Home"><img src="../assets/image/fleche.png" alt="" class="fleche"></router-link>
+    <router-link class="" to="/Home"><img src="../assets/image/fleche.png" alt="" class="fleche_intro"></router-link>
       <img src="../assets/image/groenland.png" alt="" class="groenland">
       <div class="bloc_text">
         <h4>{{message}}</h4>

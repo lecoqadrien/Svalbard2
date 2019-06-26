@@ -7,7 +7,7 @@
       <h3>Un territoire en danger</h3>
     </div>
     <video class="videohome" autoplay loop muted>
-      <source src="../assets/image/moutain.mp4" type="video/mp4" class="video">
+      <source src="../assets/video/moutain.mp4" type="video/mp4" class="video">
     </video>
     <h1>{{ message }}</h1>
     <br>
@@ -36,8 +36,9 @@ template{
 }
 
 .videohome{
-  height: 100vh;
+  height: 200vh;
   max-width: 100%;
+  margin-right: 10px;
   z-index: -10;
   background-position: center center;
 }

@@ -5,11 +5,20 @@
       <div class="forme_cardcenter_chap3">
         <div class="bloc_chap3">
           <div class="bloc_chap3_int">
-            <p>Le climat de l'archipel des Svalbard, au nord de la Norvège continentale, se réchauffe plus rapidement que presque toutes les autres régions sur Terre et un surcroît d'avalanches, de pluies et de coulées de boue risque d'y provoquer des changements "dévastateurs" d'ici la fin du siècle, lit-on dans un rapport norvégien rendu public aujourd'hui.</p>
+            <p>La réserve mondiale de semences du Svalbard, précieuse « arche de Noé végétale » protégeant la diversité génétique des conflits et des catastrophes naturelles, a franchi le million d'échantillons de graines déposés lundi à l'occasion de son dixième anniversaire.
+Dans des températures quasi polaires, plus de 70.000 nouveaux échantillons de graines de riz, blé, maïs, niébé ou encore sorgho ont rejoint l'antre fortifiée située sur cet archipel de l'Arctique à mi-chemin entre la Norvège continentale et le pôle Nord.</p>
+          </div>
+          <div>
+            <video class="video_chap3" autoplay loop muted checked>
+              <source src="../assets/video/Réserve du Svalbard  une visite du grenier de la planète - science.mp4" type="video/mp4" class="video">
+            </video>
           </div>
         </div>
         <img src="../assets/image/carte_centrre.png" alt="" class="card_nord_chap1">
       </div>
+      <img src="../assets/image/Ellipse3_chap3_1.png" alt="" class="ellipse3_chap31">
+      <img src="../assets/image/Ellipse3_chap3_2.png" alt="" class="ellipse3_chap32">
+      <img src="../assets/image/Ellipse3_chap3_3.png" alt="" class="ellipse3_chap33">
       <div class="buttons">
           <div class="bloc_button1">
             <router-link class="" to="/chap_1"><img src="../assets/image/button1.png" alt="" class="buttonchap"></router-link>
@@ -43,8 +52,8 @@ template{
   overflow: hidden;
 }
 
-.videohome{
-  height: 100vh;
+.video_chap3{
+  height: 20vh;
   z-index: -10;
   background-position: center center;
 }

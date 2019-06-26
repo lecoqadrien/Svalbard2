@@ -7,11 +7,18 @@
           <div class="bloc_chap2_int">
             <p>La plupart de la vie animale du Svalbard tire sa substance nutritive de la mer de Barents. Grâce au courant chaud du Gulf Stream qui se mélange à une eau glacée, et grâce aussi à la plate-forme maritime de cette région ainsi qu'à une activité intense des rayons solaires durant la saison estivale, cette région maritime arctique est dotée d'un haut degré de bio production.</p>
           </div>
+          <div>
+            <video class="video_chap2" autoplay loop muted checked>
+              <source src="../assets/video/explication fonte algue.mp4" type="video/mp4" class="video">
+            </video>
+          </div>
         </div>
         <div class="cards_southwest">
           <img src="../assets/image/carte_sudouest.png" alt="" class="card_sudouest_chap1">
           <img src="../assets/image/carte_sud_est.png" alt="" class="card_sudest_chap1">
         </div>
+        <img src="../assets/image/Ellipse2_chap2.png" alt="" class="ellipse2_chap2">
+        <img src="../assets/image/Ellipse2_chap21.png" alt="" class="ellipse2_chap21">
       </div>
       <div class="buttons">
           <div class="bloc_button1">
@@ -46,8 +53,8 @@ template{
   overflow: hidden;
 }
 
-.videohome{
-  height: 100vh;
+.video_chap2{
+  height: 20vh;
   z-index: -10;
   background-position: center center;
 }

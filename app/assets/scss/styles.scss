@@ -2,12 +2,15 @@
 
 .big-header {
   height: 100vh;
+  width: 100vw;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
   flex-direction: column;
   background: url(../image/moutain.mp4);
+  margin-left: 19px;
+  margin-right: 19px;
 }
 
 .title {
@@ -57,10 +60,13 @@ h3 {
  }
 
  .groenland {
-  height: 100%;
+  height: 100vh;
   width: 100%;
   position: absolute;
   max-width: 100%;
+  bottom: 1px;
+  right: 45vh;
+
  }
 
 
@@ -169,23 +175,6 @@ h4 {
   left: 545px;
 }
 
-.islandExtChap1 {
-  width: 500px;
-  height: 550px;
-  transform: scale(4.3);
-  transition: 1s ease-in-out;
-}
-
-.islandIntChap1 {
-  width: 400px;
-  height: 450px;
-  margin: 0 auto;
-  margin-top: 20px;
-  margin-left: 400px;
-  transform: scale(4.3);
-  transition: 1s ease-in-out;
-}
-
 .buttons {
   position: absolute;
   width: 100%;
@@ -229,25 +218,6 @@ h4 {
   top: 375px;
   right: 20%;
 }
-
-.ellipse2 {
-  position: absolute;
-  top: 305px;
-  left: 554px;
-}
-
-.ellipse3 {
-  position: absolute;
-  top: 305px;
-  left: 604px;
-}
-
-.buttonchapOpen {
-    transform: scale(1.2);
-    transition: 1s;
-    height: 56vh;
-}
-
 .rond_chap1 {
   position: absolute;
   top: 375px;
@@ -261,19 +231,6 @@ h4 {
 
 
 //After click chap1
-
-.textPointChap1 {
-  position: absolute;
-  height: 45vh;
-  background: red;
-}
-
-.bloc {
-  position: absolute;
-  height: 45vh;
-  width: 45vh;
-  background: red;
-}
 
 .formes_cards {
   display: flex;
@@ -297,12 +254,13 @@ h4 {
 }
 
 .bloc_chap1 {
-  height: 256px;
+  height: 386px;
   width: 456px;
   border: 2px solid white;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .bloc_chap1_int {
@@ -344,17 +302,17 @@ p {
 }
 
 .bloc_chap2 {
-  height: 256px;
+  height: 386px;
   width: 456px;
   border: 2px solid white;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .bloc_chap2_int {
-  padding: 4px;
-  margin-top: 15px;
+  padding: 15px;
 }
 
 p {
@@ -364,9 +322,22 @@ p {
   text-align: center;
 }
 
+.ellipse2_chap2 {
+    position: absolute;
+    top: 235px;
+    right: 40%;
+}
+
+.ellipse2_chap21 {
+  position: absolute;
+    top: 335px;
+    right: 10%;
+}
+
 //Chap3
 
 .forme_cardcenter_chap3 {
+  position: relative;
   height: 456px;
   width: 100%;
   display: flex;
@@ -380,17 +351,18 @@ p {
 }
 
 .bloc_chap3 {
-  height: 256px;
+  height: 386px;
   width: 456px;
   border: 2px solid white;
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .bloc_chap3_int {
   padding: 4px;
-  margin-top: 15px;
+  
 }
 
 p {
@@ -399,5 +371,34 @@ p {
   color: white;
   text-align: center;
 }
+
+.ellipse3_chap31{
+  position: absolute;
+  top: 355px;
+  right: 15%;
+}
+.ellipse3_chap32{
+  position: absolute;
+  top: 305px;
+  right: 25%;
+}
+.ellipse3_chap33{
+  position: absolute;
+  top: 355px;
+  right: 30%;
+}
+
+
+//Javascript
+
+.trait {
+  position: absolute;
+  right: 285px;
+  top: 364px;
+  transform: rotate(12deg);
+  width: 10%;
+}
+
+
 
 

@@ -7,6 +7,11 @@
           <div class="bloc_chap1_int">
             <p>Le climat de l'archipel des Svalbard, au nord de la Norvège continentale, se réchauffe plus rapidement que presque toutes les autres régions sur Terre et un surcroît d'avalanches, de pluies et de coulées de boue risque d'y provoquer des changements "dévastateurs" d'ici la fin du siècle, lit-on dans un rapport norvégien rendu public aujourd'hui.</p>
           </div>
+          <div>
+            <video class="videohome" autoplay loop muted checked>
+              <source src="../assets/video/explication rechauffement.mp4" type="video/mp4" class="video">
+            </video>
+          </div>
         </div>
         <img src="../assets/image/carte_nord.png" alt="" class="card_nord_chap1">
         <img src="../assets/image/Ellipse.png" alt="" class="ellipse">
@@ -45,7 +50,7 @@ template{
 }
 
 .videohome{
-  height: 100vh;
+  height: 30vh;
   z-index: -10;
   background-position: center center;
 }
