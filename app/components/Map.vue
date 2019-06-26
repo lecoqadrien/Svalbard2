@@ -3,8 +3,16 @@
     <h1 class="Message">{{ message }}</h1>
     <div class="formes">
         <img src="../assets/image/forme_ext.png" alt="" class="forme_ext">
-      </div>
+    </div>
       <img src="../assets/image/form_int.png" alt="" class="form_int">
+      <div class="cards">
+        <div>
+           <img src="../assets/image/carte_centrre.png" alt="" class="carte_centre">
+        </div>
+        <div>
+          <img src="../assets/image/carte_nord.png" alt="" class="carte_nord">
+        </div>
+      </div>
     </div>
   </div>
 </template>
