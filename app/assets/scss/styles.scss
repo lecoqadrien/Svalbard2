@@ -253,6 +253,32 @@ h4 {
   height: 356px;
 }
 
+.card_nord_chap1sup {
+  height: 356px;
+  opacity: 0;
+}
+
+.card_nord_chap1click {
+  opacity: 1;
+  position: absolute;
+  height: 356px;
+  top: 120px;
+}
+
+.card_nord_chap1click2 {
+  opacity: 1;
+  position: absolute;
+  height: 356px;
+  top: 120px;
+}
+
+.card_nord_chap1aclick {
+  opacity: 1;
+  position: absolute;
+  height: 356px;
+  top: 120px;
+}
+
 .bloc_chap1 {
   height: 386px;
   width: 456px;
@@ -273,6 +299,29 @@ p {
   font-size: 16px;
   color: white;
   text-align: center;
+}
+
+.north_color {
+  display: flex;
+  justify-content: space-around;
+}
+
+.north_1 {
+  height: 42px;
+  width: 104px;
+  background: greenyellow;
+}
+
+.north_2 {
+  height: 42px;
+  width: 104px;
+  background: orange;
+}
+
+.north_3 {
+  height: 42px;
+  width: 104px;
+  background: red;
 }
 
 

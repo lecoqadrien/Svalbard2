@@ -13,19 +13,28 @@
             </video>
           </div>
         </div>
-        <img src="../assets/image/carte_nord.png" alt="" class="card_nord_chap1">
-        <img src="../assets/image/Ellipse.png" alt="" class="ellipse">
+        <div class="north_blocs">
+          <div class="north_terres">
+            <img src="../assets/image/carte_nord.png" alt="" class="card_nord_chap1">
+            <img src="../assets/image/carte_norddeform1.png" alt="" class="card_nord_chap1click">
+            <img src="../assets/image/carte_norddeform2.png" alt="" class="card_nord_chap1click2">
+            <img src="../assets/image/Ellipse.png" alt="" class="ellipse">
+          </div>
+          <div class="north_color">
+            <div class="north_1">
+              <h3>2020</h3>
+            </div>
+            <div class="north_2">
+              <h3>2025</h3>
+            </div>
+            <div class="north_3">
+              <h3>2030</h3>
+            </div>
+          </div>
+        </div>
       </div>
       <div class="buttons">
-          <div class="bloc_button1">
-            <router-link class="" to="/chap_1"><img src="../assets/image/button_1_light.png" alt="" class="buttonchap"></router-link>
-          </div>
-          <div class="bloc_button2">
-            <router-link class="" to="/chap_2"><img src="../assets/image/button_2.png" alt="" class="buttonchap2"></router-link>
-          </div>
-          <div class="bloc_button3">
-            <router-link class="" to="/chap_3"><img src="../assets/image/button_3.png" alt="" class="buttonchap3"></router-link>
-          </div>
+        
       </div>
     </div>
   </div>
