@@ -21,15 +21,7 @@
         <img src="../assets/image/Ellipse2_chap21.png" alt="" class="ellipse2_chap21">
       </div>
       <div class="buttons">
-          <div class="bloc_button1">
-            <router-link class="" to="/chap_1"><img src="../assets/image/button1.png" alt="" class="buttonchap"></router-link>
-          </div>
-          <div class="bloc_button2">
-            <router-link class="" to="/chap_2"><img src="../assets/image/chap_2_light.png" alt="" class="buttonchap2"></router-link>
-          </div>
-          <div class="bloc_button3">
-            <router-link class="" to="/chap_3"><img src="../assets/image/button_3.png" alt="" class="buttonchap3"></router-link>
-          </div>
+          
       </div>
     </div>
   </div>

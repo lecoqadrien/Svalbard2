@@ -44,11 +44,12 @@ template{
 }
 .button {
   position: absolute;
-  bottom: 20px;
+  bottom: 40px;
   right: 40%;
   color: white;
   font-family: 'Montserrat', sans-serif;
   margin: 0 auto;
+  margin-bottom: 40px;
   text-align: center;
 }
 

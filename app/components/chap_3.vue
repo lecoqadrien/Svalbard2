@@ -19,17 +19,7 @@ Dans des températures quasi polaires, plus de 70.000 nouveaux échantillons de 
       <img src="../assets/image/Ellipse3_chap3_1.png" alt="" class="ellipse3_chap31">
       <img src="../assets/image/Ellipse3_chap3_2.png" alt="" class="ellipse3_chap32">
       <img src="../assets/image/Ellipse3_chap3_3.png" alt="" class="ellipse3_chap33">
-      <div class="buttons">
-          <div class="bloc_button1">
-            <router-link class="" to="/chap_1"><img src="../assets/image/button1.png" alt="" class="buttonchap"></router-link>
-          </div>
-          <div class="bloc_button2">
-            <router-link class="" to="/chap_2"><img src="../assets/image/button_2.png" alt="" class="buttonchap2"></router-link>
-          </div>
-          <div class="bloc_button3">
-            <router-link class="" to="/chap_3"><img src="../assets/image/chap_3_light.png" alt="" class="buttonchap3"></router-link>
-          </div>
-      </div>
+      
     </div>
   </div>
 </template>
