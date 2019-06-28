@@ -140,7 +140,7 @@ h4 {
   display: flex;
   justify-content: space-around;
   width: 30vw;
-  top: 155px;
+  top: 235px;
   left: 366px;
 }
 
@@ -149,7 +149,7 @@ h4 {
   display: flex;
   justify-content: space-around;
   width: 30vw;
-  top: 155px;
+  top: 235px;
   left: 406px;
 }
 
@@ -258,18 +258,23 @@ h4 {
   opacity: 0;
 }
 
+.card_nord_chap1sup2 {
+  height: 356px;
+  opacity: 0;
+}
+
 .card_nord_chap1click {
   opacity: 1;
   position: absolute;
   height: 356px;
-  top: 120px;
+  top: 208px;
 }
 
 .card_nord_chap1click2 {
-  opacity: 1;
+  opacity: 0;
   position: absolute;
   height: 356px;
-  top: 120px;
+  top: 208px;
 }
 
 .card_nord_chap1aclick {
@@ -277,6 +282,13 @@ h4 {
   position: absolute;
   height: 356px;
   top: 120px;
+}
+
+.card_nord_chap1clicker {
+  opacity: 0;
+  position: absolute;
+  height: 356px;
+  top: 208px;
 }
 
 .bloc_chap1 {
@@ -381,6 +393,69 @@ p {
   position: absolute;
     top: 335px;
     right: 10%;
+}
+
+.mouette {
+  position: absolute;
+  height: 74px;
+  width: 74px;
+  right: 444px;
+  top: 345px;
+  opacity: 1;
+}
+
+.mouette_sup {
+  opacity: 0;
+  position: absolute;
+  height: 74px;
+  width: 74px;
+  right: 444px;
+  top: 345px;
+}
+
+.renne {
+  position: absolute;
+  height: 74px;
+  width: 74px;
+  right: 380px;
+  top: 200px;
+}
+
+.ours {
+  position: absolute;
+  height: 74px;
+  width: 74px;
+  right: 180px;
+  top: 370px;
+
+
+}
+
+.south_color {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  margin-top: 34px;
+}
+
+.north_1_chap2 {
+  height: 42px;
+  width: 104px;
+  background: greenyellow;
+}
+
+.north_2_chap2 {
+  height: 42px;
+  width: 104px;
+  background: orange;
+}
+
+.north_3_chap2 {
+  height: 42px;
+  width: 104px;
+  background: red;
 }
 
 //Chap3
@@ -513,17 +588,26 @@ p {
   }
 
   .card_nord_chap1click {
-      opacity: 0;
+      opacity: 1;
       position: absolute;
       height: 356px;
-      top: 120px;
+      top: 620px;
   }
 
   .card_nord_chap1click2 {
-    opacity: 0;
+    opacity: 1;
     position: absolute;
     height: 356px;
-    top: 120px;
+    top: 620px;
+    
+  }
+
+  .fond {
+    height: 140vh;
+  }
+
+  .north_color {
+    margin-top: 45vh;
   }
 }
 

@@ -13,15 +13,28 @@
             </video>
           </div>
         </div>
-        <div class="cards_southwest">
-          <img src="../assets/image/carte_sudouest.png" alt="" class="card_sudouest_chap1">
-          <img src="../assets/image/carte_sud_est.png" alt="" class="card_sudest_chap1">
+        <div class="cardsouth">
+          <div class="cards_southwest">
+            <img src="../assets/image/carte_sudouest.png" alt="" class="card_sudouest_chap1">
+            <img src="../assets/image/carte_sud_est.png" alt="" class="card_sudest_chap1">
+          </div>
+          <div class="south_color">
+            <div class="north_1_chap2">
+              <h3>2020</h3>
+            </div>
+            <div class="north_2_chap2">
+              <h3>2025</h3>
+            </div>
+            <div class="north_3_chap2">
+              <h3>2030</h3>
+            </div>
+          </div>
         </div>
-        <img src="../assets/image/Ellipse2_chap2.png" alt="" class="ellipse2_chap2">
-        <img src="../assets/image/Ellipse2_chap21.png" alt="" class="ellipse2_chap21">
-      </div>
-      <div class="buttons">
-          
+          <img src="../assets/image/Ellipse2_chap2.png" alt="" class="ellipse2_chap2">
+          <img src="../assets/image/Ellipse2_chap21.png" alt="" class="ellipse2_chap21">
+          <img src="../assets/image/mouette.png" alt="" class="mouette">
+          <img src="../assets/image/renne.png" alt="" class="renne">
+          <img src="../assets/image/ours.png" alt="" class="ours">
       </div>
     </div>
   </div>
@@ -38,6 +51,7 @@ export default {
   }
 };
 </script>
+
 
 
 <style lang="scss" scoped>
